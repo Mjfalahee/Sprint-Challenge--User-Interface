@@ -103,11 +103,36 @@ img {
     margin-bottom: 20px;
 }
 
-.inputcontent .message input {
-
-    border: 1px solid red;
+.inputcontent {
+    margin: 10px;
 }
 
+.inputcontent form input {
+
+    margin: 5px;
+}
+
+.inputcontent .message input {
+    width: 100%;
+    height: 200px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 6px;
+    resize: none;
+}
+
+
+.inputcontent .submit input {
+
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+}
 
 
 
