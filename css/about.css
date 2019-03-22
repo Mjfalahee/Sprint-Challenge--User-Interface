@@ -107,12 +107,26 @@ img {
 }
 
 .middlecontent .box {
-    width: 350px;
+    width: 375px;
     border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.middlecontent .box button {
+    font-size: 15px;
+    background: white;
+    height: 35px;
+    width: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
 }
 
 .bottomcontent {
+    padding: 10px;
     margin-top: 20px;    
+    margin-bottom: 15px;
 }
 
 footer {
