@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+header {
+    
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+header nav {
+    display: flex;
+    border: 1px solid blue;    
+
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
