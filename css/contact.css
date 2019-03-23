@@ -92,101 +92,51 @@ header nav a {
 
 img {
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
+.topcontent {
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.inputcontent {
+    margin: 10px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.inputcontent form input {
+
+    margin: 2px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.inputcontent .message textarea {
+    margin-top: 10px;
+    width: 80%;
+    height: 200px;
+    padding: 15px 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    resize: none;
 }
 
-/* box coloring */
-.middle-content .boxes .box:nth-child(1) {
-    background: teal;
+
+.inputcontent .submit input {
+    border: 1.5px solid black;
+    font-size: 15px;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    height: 30px;
+    width: 100px;
 }
 
-.middle-content .boxes .box:nth-child(2) {
-    background: gold;
-}
 
-.middle-content .boxes .box:nth-child(3) {
-    background: cadetblue;
-}
 
-.middle-content .boxes .box:nth-child(4) {
-    background: coral;
-}
-.middle-content .boxes .box:nth-child(5) {
-    background: crimson;
-}
-.middle-content .boxes .box:nth-child(6) {
-    background: forestgreen;
-}
-.middle-content .boxes .box:nth-child(7) {
-    background: darkorchid;
-}
-.middle-content .boxes .box:nth-child(8) {
-    background: hotpink;
-}
-.middle-content .boxes .box:nth-child(9) {
-    background: indigo;
-}
-.middle-content .boxes .box:nth-child(10) {
-    background: dodgerblue;
-}
-/* end of box coloring */
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
+/* footer styling */
 footer {
     width: 100%;
     background: black;
